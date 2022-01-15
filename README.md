@@ -1,2 +1,2 @@
 # dorikyh.github.io
-Website
+Dorikyh website portfolio.

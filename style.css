@@ -1,6 +1,11 @@
 /* Starting style.css */
-* {
-  box-sizing: border-box;}
+
+
+@media screen and (max-width: 800px) {
+  .img {
+    width: 100px;
+  }
+}
 
 /* All-text color */
 
@@ -41,12 +46,17 @@ h2 {
 /* All-text configs */
 
 p {
-  line-height: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   font-size: 22px;
-  padding: 0;
-  font-weight: 100;  
+  font-weight: 100; 
   color: rgb(196, 195, 195);
+  line-height: 30px;
+}
+
+@media screen and (max-widht: 1100px) {
+  p {
+    line-height: 5px;
+  }
 }
 
 /* Image margin */
@@ -96,11 +106,13 @@ nav {
 }
 
 nav a {
-  display: inline-flex;
-  padding: 20px 30px;
+  display: inline-block;
+  padding: 20px 20px;
   color: #fff;
   text-decoration: none;
 }
+
+
 
 nav a:hover, nav a:focus {
   color: rgb(179, 178, 178);

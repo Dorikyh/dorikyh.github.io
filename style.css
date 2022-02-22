@@ -9,6 +9,15 @@
 
 /* All-text color */
 
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
 b {
   font-weight: 600;  
   color: #eee;
@@ -17,11 +26,10 @@ b {
 footer {
   text-align: center;
   padding-top: 1px;
-  padding-bottom: 4px;
-  width: 100%;
+  padding-bottom: 0px;
   background: rgb(17, 17, 17);
   box-shadow: 0px -4px 8px rgb(17, 17, 17);
-  color: white;
+  margin-top: auto;
 }
 
 /* General style web configs */
@@ -110,4 +118,11 @@ nav a:hover, nav a:focus {
 nav a.active {
   color: #4f73d6;
 }
+
+
+
+
+
+
+
 /* Finish */

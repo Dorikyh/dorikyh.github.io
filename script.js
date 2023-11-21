@@ -7,7 +7,7 @@ if (userLang.includes('es')) {
 } else if (userLang.includes('fr')) {
   window.location.href = 'index_fr.html'; // Redirigir a la página en francés
 } else if (userLang.includes('en')) {
-  window.location.href = 'index_en.html'; // Redirigir a la página en inglés
+  window.location.href = 'index.html'; // Redirigir a la página en inglés
 } else {
   // Redirigir a una página predeterminada en caso de no coincidir con los idiomas deseados
   window.location.href = 'index.html';

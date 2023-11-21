@@ -6,6 +6,10 @@
     grid-template-columns: repeat(2,1fr);
 }
 
+i{
+    color: #cac3d4;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -25,7 +29,7 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 40vh;
+    padding-top:20vh;
     text-align: center;
 }
 
@@ -36,19 +40,23 @@ a{
 }
 
 .section-1 h2{
-    font-size: 1.7rem;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
 .section-1 a{
     font-size: 1.5rem;
     padding: 10px;
 }
+
+
+
 /* section 2 */
 .section-2{
-    padding-top: 10vh;
-    width: 70%;
+    padding-top: 15vh;
+    width: 75%;
 }
+
 
 .section-2 h2{
     font-size: 1.7rem;
@@ -61,16 +69,24 @@ a{
     margin:0;
 }
 
-.section-2 a{
-    display: block;
-    padding: 5px;
-    font-size: 1.2rem;
-    padding-left: 0;
-    width: 100px;
+.section-2 ul{
+    margin-left: 20px;
+    padding: 0;
 }
+
+.section-2 a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.section-2 li {
+    font-size: 1rem;
+    padding-bottom: 12px;
+    margin:0;
+}
+
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
@@ -82,9 +98,40 @@ a{
     transition: 0.3s;
 }
 
-.white:hover{
+/* styles.css */
+.fade-in {
+    opacity: 0; /* Empieza invisible */
+    animation: fadeIn 0.4s ease-in forwards; /* Animación de fade in durante 1 segundo */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Empieza completamente transparente */
+    }
+    to {
+      opacity: 1; /* Termina completamente visible */
+    }
+  }
+
+.footer {
+    background-color: #1e1f23;
+    color: #7A7C80;
+    text-align: center;
+    padding: 20px 0;
     position: relative;
-    padding-left: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments for the footer */
+@media (max-width: 700px) {
+    .footer {
+        position: static;
+    }
 }
 
 
@@ -96,10 +143,12 @@ a{
     .section-1{
         padding:0;
         padding-top: 5rem;
+
     }
     .section-2{
         padding: 0;
         padding-left: 1.5rem;
         padding-top: 2rem;
+        width: 85%;
     }
 }

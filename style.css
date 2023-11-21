@@ -101,7 +101,7 @@ a{
 /* styles.css */
 .fade-in {
     opacity: 0; /* Empieza invisible */
-    animation: fadeIn 0.4s ease-in forwards; /* Animación de fade in durante 1 segundo */
+    animation: fadeIn 0.6s ease-in forwards; /* Animación de fade in durante 1 segundo */
   }
   
   @keyframes fadeIn {

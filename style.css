@@ -9,6 +9,8 @@ i{
     color: #cac3d4;
 }
 
+
+
 body{
     margin: 0;
     padding: 0;
@@ -82,6 +84,10 @@ a{
     font-size: 1rem;
     padding-bottom: 12px;
     margin:0;
+}
+
+#dscord-presence{
+    margin-top: 0px;
 }
 
 /* animations / utilities */

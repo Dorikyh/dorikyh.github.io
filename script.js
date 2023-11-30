@@ -6,5 +6,5 @@ if (userLang.includes('es')) {
   window.location.href = 'index_es.html'; // Redirigir a la página en español
 } else {
   // Redirigir a una página predeterminada en caso de no coincidir con los idiomas deseados
-  window.location.href = 'index.html';
+  window.location.href = 'index_en.html';
 }

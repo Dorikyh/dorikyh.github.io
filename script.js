@@ -3,8 +3,8 @@ var userLang = (navigator.language || navigator.userLanguage).toLowerCase();
 
 // Verificar si el idioma contiene subcadenas específicas
 if (userLang.includes('es')) {
-  window.location.href = 'index_es.html'; // Redirigir a la página en español
+  window.location.href = 'es'; // Redirigir a la página en español
 } else {
   // Redirigir a una página predeterminada en caso de no coincidir con los idiomas deseados
-  window.location.href = 'index_en.html';
+  window.location.href = 'en';
 }

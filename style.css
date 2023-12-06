@@ -35,9 +35,8 @@ a{
 }
 
 .section-1 p{
-    font-size: 1.1rem;
-    padding-bottom: 10px;
-    margin:0;
+    font-size: 1.2rem;
+    margin: 8px;
 }
 
 .section-1 h2{
@@ -47,6 +46,7 @@ a{
 
 .section-1 a{
     font-size: 1.5rem;
+    margin-top: 5vh;
     padding: 10px;
 }
 
@@ -54,7 +54,7 @@ a{
 
 /* section 2 */
 .section-2{
-    padding-top: 15vh;
+    margin-top: 10vh;
     width: 75%;
 }
 
@@ -65,7 +65,7 @@ a{
 }
 
 .section-2 p{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-bottom: 10px;
     margin:0;
 }
@@ -81,7 +81,7 @@ a{
 }
 
 .section-2 li {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-bottom: 12px;
     margin:0;
 }
@@ -147,13 +147,12 @@ a{
     }
     .section-1{
         padding:0;
-        padding-top: 5rem;
+        margin-top: 5rem;
 
     }
     .section-2{
         padding: 0;
         padding-left: 1.5rem;
-        padding-top: 2rem;
         width: 85%;
     }
 }

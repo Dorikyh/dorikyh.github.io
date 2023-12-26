@@ -9,7 +9,9 @@ i{
     color: #cac3d4;
 }
 
-
+li {
+  color: #7A7C80;
+}
 
 body{
     margin: 0;
@@ -20,8 +22,43 @@ body{
 
 }
 
+/* Agrega estilos para el modo claro y oscuro */
+.light-mode {
+    /* Cambia los colores para el modo oscuro */
+    background-color: #e0e0e0;
+}
+
+.light-mode h2 {
+    color: #101214;
+    /* Otros estilos para h2 en modo oscuro según tu diseño */
+}
+
+.light-mode p{
+    color: #282b2f;
+}
+
+.light-mode i{
+    color: #282b2f;
+}
+
+.light-mode li{
+    color: #282b2f;
+}
+
+.light-mode footer{
+    background-color: #ababab;
+}
+
+/* Agrega transiciones para un cambio suave */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+
 h2,.white{
-    color: #fff;
+    color: #e0e0e0;
 }
 
 a{
@@ -55,7 +92,7 @@ a{
 /* section 2 */
 .section-2{
     margin-top: 10vh;
-    width: 75%;
+    width: 70%;
 }
 
 
@@ -68,11 +105,14 @@ a{
     font-size: 1.2rem;
     padding-bottom: 10px;
     margin:0;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .section-2 ul{
     margin-left: 20px;
     padding: 0;
+    text-justify: inter-word;
 }
 
 .section-2 a{
@@ -92,13 +132,19 @@ a{
 
 /* animations / utilities */
 .section-2 a:hover{
-    color: #fff;
+    color: #d7d7da;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.light-mode .section-2 a:hover{
+    color: #444446;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .section-1 a:hover{
-    color: #fff;
+    color: #444446;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -145,6 +191,7 @@ a{
     .grid-2{
         grid-template-columns: 1fr;
     }
+
     .section-1{
         padding:0;
         margin-top: 5rem;
@@ -153,6 +200,6 @@ a{
     .section-2{
         padding: 0;
         padding-left: 1.5rem;
-        width: 85%;
+        width: 88%;
     }
 }
